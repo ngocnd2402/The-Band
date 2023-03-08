@@ -1,0 +1,69 @@
+@media (min-width: 1024px) 
+{
+
+}
+
+/*Tablet*/
+@media (min-width: 740px) and (max-width: 1023px) 
+{
+
+}
+
+/*Mobile*/
+
+@media (min-width: 300px) and (max-width: 739px)
+{
+    #nav
+    {
+        display: block;
+    }
+    ul#nav > li
+    {
+        display: block;
+    }
+
+    #nav>li:first-child
+    {
+        display: inline-block;
+    }
+
+    #content .member-list 
+    {
+    margin-top: 150px;
+    padding: 32px;
+    }
+    #slider .text-content
+    {
+        display: none;
+    }
+
+    #slider 
+    {
+        position: relative;
+        padding-bottom: 35px;
+    }
+
+    #header .search-button
+    {
+    float: right;
+    cursor: pointer;
+    }
+
+    #header .menu-icon
+    {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 23.48px;
+    color: white;
+    font-size: 16px;
+    line-height: 46.5px;
+    }
+
+
+    #header .search-icon
+    {
+        display: none;
+    }
+}
+
