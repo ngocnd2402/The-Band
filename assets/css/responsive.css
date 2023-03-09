@@ -68,5 +68,98 @@
     {
         display: none !important;
     }
+
+    #content .member-list .member-mobile 
+    {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    #content .member-list .member-img
+    {
+        width: 60%;
+    }
+
+    .place-item 
+    {
+        width: 99.99%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contact .contact-container
+    {
+        display: inline-block;
+    }
+    .contact .left 
+    {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .contact .right 
+    {
+        display: block;
+        width: 100%;
+        float: left;
+        
+    }
+
+    .contact .right .div_name 
+    {
+        width: 99%;
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+
+    .contact .right .contact-name
+    {
+        width: 100%;
+    }
+
+    .contact .right .contact-email
+    {
+        width: 100%;
+    }
+
+    .contact .right .contact-mess
+    {
+        width: 100% !important;
+        border: 1px solid #ccc!important;
+        padding: 10px 15px 10px 10px;
+        margin-top: 0px ;
+    }
+
+
+    .contact .right .div_email
+    {
+        width: 99% !important;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .contact .right .div_contact
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+    .right 
+    {
+        display:inline-block;
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 10px;
+    }
+
+    .contact .right .top 
+    {
+        display: inline-block;
+        margin-bottom: 0;
+    }
+
+    .contact
+    {
+        padding-bottom: 0;
+    }
 }
 
