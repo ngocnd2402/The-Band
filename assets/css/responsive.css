@@ -1,17 +1,16 @@
-@media (min-width: 1024px) 
+@media (min-width: 1000px) 
 {
+
+    
 
 }
 
-/*Tablet*/
-@media (min-width: 740px) and (max-width: 1023px) 
-{
 
-}
+
 
 /*Mobile*/
 
-@media (min-width: 300px) and (max-width: 739px)
+@media (min-width: 100px) and (max-width:700px)
 {
     #nav
     {
@@ -63,7 +62,7 @@
 
     #header .search-icon
     {
-        display: none;
+        display: none !important;
     }
 }
 

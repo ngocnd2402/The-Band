@@ -11,10 +11,6 @@ html
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
 }
-#main
-{
-
-}
 
 .clear
 {
@@ -88,7 +84,7 @@ html
 
 #nav .subnav
 {
-    display: none;
+    display: block;
     background-color: white;
     position: absolute;
     top: 100%;
@@ -141,8 +137,15 @@ html
     background-color: #f44336 ;
 }
 
+
+#nav .subnav li
+{
+    color: white;
+}
+
 #nav .subnav li:hover a 
 {
+    
     color: #000 !important;
     background-color: #ccc !important;
 }
@@ -151,7 +154,7 @@ html
 {
     position: relative;
     padding-top: 50%;
-    background:  url('/assets/img/chicago.jpg') top center / cover no-repeat ;
+    background:  url(https://www.w3schools.com/w3images/la.jpg) top center / cover no-repeat ;
 }
 
 #slider .text-content 
