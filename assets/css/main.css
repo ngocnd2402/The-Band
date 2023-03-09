@@ -43,32 +43,17 @@ html
 #nav > li
 {
     display: inline-block;
-}
-
-#nav li
-{
     position: relative;
 }
-#nav > li > a
+
+#nav li a
 {
     color: white;
     text-decoration: none;
     line-height: 46.5px;
     padding: 0 24px;
-    display: block;
+    display: inline-block;
     
-}
-#nav li a
-{
-    text-decoration: none;
-    line-height: 46.5px;
-    padding: 0 24px;
-    display: block;
-    
-}
-#nav li:hover .subnav
-{
-    display: block ;
 }
 
 #nav > li:hover > a 
@@ -79,14 +64,14 @@ html
 
 #nav, .subnav
 {
-    list-style: none;
+    list-style: none; 
 }
 
 #nav .subnav
 {
-    display: block;
-    background-color: white;
+    display: none;
     position: absolute;
+    background-color: white;
     top: 100%;
     left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -98,13 +83,9 @@ html
     line-height: 38.5px;
     padding: 0 16px;
     color: black;
-    display: block;
 }
 
-#header 
-{
-    overflow: hidden;
-}
+
 
 #nav .nav-arrow-down
 {
@@ -140,14 +121,20 @@ html
 
 #nav .subnav li
 {
+   
     color: white;
+}
+
+#nav li:hover .subnav
+{
+    display: block !important;
 }
 
 #nav .subnav li:hover a 
 {
-    
     color: #000 !important;
     background-color: #ccc !important;
+    overflow: visible !important;
 }
 
 #slider
